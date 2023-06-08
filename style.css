@@ -4,3 +4,20 @@
     box-sizing: border-box;
     -webkit-font-smooth: antialised;
 }
+
+body{
+    background: linear-gradient(107.54deg, #935FD3 0%,#9245F1 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Heebo',sens-serif;
+}
+
+.card{
+    width: 375px;
+    height: 584px;
+    background-color: #FDFCFE;
+    border-radius: 12px;
+}
