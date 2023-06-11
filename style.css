@@ -65,9 +65,15 @@ label{
 
 .default{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    
     margin-top: 12px;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.default section{
+    display: flex;
+    justify-content: space-between;
 }
 
 .default div{
@@ -90,4 +96,9 @@ i{
 
 .ph-caret-right{
     color: #686071;
+}
+
+#sign-out,
+.ph-sign-out{
+    color: #AA2222;
 }
